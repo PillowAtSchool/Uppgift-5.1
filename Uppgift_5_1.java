@@ -13,12 +13,12 @@ public class Uppgift_5_1 {
 
 		while (true) {
 
-			String number = JOptionPane.showInputDialog("Skriv tal.");
-			if (number == null)
+			String num = JOptionPane.showInputDialog("Skriv tal.");
+			if (num == null)
 				break;
-			int num = Integer.parseInt(number);
-			maxNum = Math.max(num, maxNum);
-			minNum = Math.min(num, minNum);
+			int number = Integer.parseInt(num);
+			maxNum = Math.max(number, maxNum);
+			minNum = Math.min(number, minNum);
 
 		}
 
